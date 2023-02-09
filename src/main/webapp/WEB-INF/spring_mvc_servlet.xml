@@ -12,11 +12,11 @@
         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
 	<!--  paquete a escanear en busca de componentes -->
-	<context:component-scan base-package="es.pildoras.spring.mvc" />
+	<context:component-scan base-package="edu.uda.mvc1" />
 
 	<mvc:annotation-driven/>
 
-	<!-- Configuración del view resolver-->
+	<!-- Configuracion del view resolver-->
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/vista/" />
