@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Página JSP</title>
+<title>Insert title here</title>
 </head>
 <body>
-<h1>Primer ejemplo MVC Spring</h1>
-<a href="muestraformulario">Ir a formulario</a>
+
+Hola ${param.nombreAlumno}. Bienvenido al curso de Spring 
 </body>
 </html>
