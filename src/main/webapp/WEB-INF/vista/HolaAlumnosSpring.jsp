@@ -5,15 +5,20 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href= "${pageContext.request.contextPath}/recursos/css/miestilo.css">
 </head>
 <body>
 
 Hola ${param.nombreAlumno}. Bienvenido al curso de Spring
 
+<h1>Atención a todos</h1>
 <p><br>
 ${mensajeClaro}
 
 </p>
+
+<img alt="imagen" src= "${pageContext.request.contextPath}/recursos/imagenes/cuy.png">
+
 
 </body>
 </html>
