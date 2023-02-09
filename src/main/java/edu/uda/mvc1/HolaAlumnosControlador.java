@@ -5,6 +5,7 @@ import javax.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class HolaAlumnosControlador {
@@ -23,9 +24,12 @@ public class HolaAlumnosControlador {
 	//procesa la información y llama a la vista 
 	
 	@RequestMapping("/procesarformulario2") //Permite consultar por web.  Se añade url
-	public String otroProcesoFormulario(HttpServletRequest request, Model modelo)
+	//public String otroProcesoFormulario(HttpServletRequest request, Model modelo)
+	
+	public String otroProcesoFormulario(@RequestParam("nombreAlumno") String nombre, Model modelo)
 	{	//leer información 
-		String nombre = request.getParameter("nombreAlumno");
+		//String nombre = request.getParameter("nombreAlumno");
+		
 		nombre+= " es el mejor alumno";
 		
 		String mensajeFinal = "¿Quién es el mejor alumno? " + nombre;
