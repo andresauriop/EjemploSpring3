@@ -8,6 +8,12 @@
 </head>
 <body>
 
-Hola ${param.nombreAlumno}. Bienvenido al curso de Spring 
+Hola ${param.nombreAlumno}. Bienvenido al curso de Spring
+
+<p><br>
+${mensajeClaro}
+
+</p>
+
 </body>
 </html>
