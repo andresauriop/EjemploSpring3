@@ -4,13 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Página JSP</title>
+<title>Confirmación de Registro</title>
 </head>
 <body>
-<h1>Primer ejemplo MVC Spring</h1>
-<a href="principal/muestraformulario">Ir a formulario</a>
-<br><br>
-
-<a href="alumno/muestraFormulario">Ir a formulario de registro de alumno</a>
+El alumno con nombre ${elAlumno.nombre} y apellido ${elAlumno.apellido} se ha registrado con éxito
 </body>
 </html>

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class Controlador {
 	@RequestMapping  //mapea la vista que queremos ver
 	public String muestraPagina()
-	{
-		return "paginaEjemplo";
+		{return "paginaEjemplo";
+		//return "paginaEjemploDuplicado";  //El controlador se ejecuta inicialmente.  Se puede cambiar
 	}
 }

@@ -7,10 +7,7 @@
 <title>Página JSP</title>
 </head>
 <body>
-<h1>Primer ejemplo MVC Spring</h1>
-<a href="principal/muestraformulario">Ir a formulario</a>
-<br><br>
-
-<a href="alumno/muestraFormulario">Ir a formulario de registro de alumno</a>
+<h1>Duplicado MVC Spring</h1>
+<a href="duplicado/muestraformulario">Ir a formulario</a>
 </body>
 </html>

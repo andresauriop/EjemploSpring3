@@ -16,6 +16,7 @@
 
 	<mvc:annotation-driven/>
 
+	
 	<!-- Configuracion del view resolver-->
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">

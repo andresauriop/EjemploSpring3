@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-@RequestMapping("/principal") 
-public class HolaAlumnosControlador {
+@RequestMapping("/duplicado") //para trabajar con diferentes raices con elementos de igual nombre
+public class DuplicadoControlador {
 	
 	@RequestMapping("/muestraformulario") //Permite consultar por web.  Se añade url
 	public String muestraFormulario()
@@ -33,7 +33,7 @@ public class HolaAlumnosControlador {
 		
 		nombre+= " es el mejor alumno";
 		
-		String mensajeFinal = "¿Quién es el mejor alumno? " + nombre;
+		String mensajeFinal = "Duplicado: ¿Quién es el mejor alumno? " + nombre;
 		//agregando info al modelo 
 		modelo.addAttribute("mensajeClaro", mensajeFinal);
 		
