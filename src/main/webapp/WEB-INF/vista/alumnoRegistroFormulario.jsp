@@ -14,7 +14,15 @@
 	Nombre: <form:input path="nombre"/>  <!-- getNombre -->
 	<br><br>
 	Apellidos: <form:input path="apellido"/>  <!-- getNombre -->
-	<br><br>
+	</br></br></br>
+	Asignaturas optativas
+	<br>
+	<form:select path="optativa" multiple="true">
+		<form:option value="Diseño" label="Diseño"/>
+		<form:option value="Karate" label="Karate"/>
+		<form:option value="Comercio" label="Comercio"/>
+		<form:option value="Danza" label="Danza"/>
+	</form:select>
 	<input type="submit" value="Enviar">
 </form:form>
 
